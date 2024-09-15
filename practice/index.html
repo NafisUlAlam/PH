@@ -16,7 +16,7 @@
     <header>
       <h1>Welcome to my DOM</h1>
     </header>
-    <main>
+    <main id="main">
       <h1>My awesome DOM</h1>
       <ul>
         <li>A</li>
@@ -53,6 +53,16 @@
       //   fourthLi.style.color = "rgb(11,11,11)";
       const footer = document.getElementsByTagName("footer");
       console.log(footer[0].childNodes);
+
+      const section = document.createElement("div");
+      section.innerHTML = `<h1> HIIIII</h1>
+      <ul>
+        <li>abul</li>
+        <li>kabul</li>
+        <li>sabul</li>
+        </ul>`;
+      const main = document.getElementById("main");
+      main.appendChild(section);
     </script>
     <script src="./scripts/first.js"></script>
   </body>
