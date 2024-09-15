@@ -24,13 +24,29 @@
         <li>C</li>
         <li>D</li>
       </ul>
+      <section>
+        <h1>My awesome DOM</h1>
+        <ul>
+          <li class="li">hello</li>
+          <li class="li second">My</li>
+          <li class="li">Name</li>
+          <li class="li" id="fourth-id">Nafis</li>
+        </ul>
+      </section>
     </main>
     <footer></footer>
     <script>
       const liCollection = document.getElementsByTagName("li");
       for (const li of liCollection) {
-        console.log(li.innerText);
+        //console.log(li.innerText);
       }
+
+      const liClass = document.getElementsByClassName("li second");
+      console.log(liClass);
+      const fourthLi = document.getElementById("fourth-id");
+      console.log(fourthLi);
+      fourthLi.innerText = "zahra";
+      console.log(fourthLi);
     </script>
     <script src="./scripts/first.js"></script>
   </body>
