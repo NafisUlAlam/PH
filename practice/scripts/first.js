@@ -9,6 +9,7 @@ redButton.addEventListener("click", (event) => {
 
 const greenButton = document.getElementById("make-green");
 greenButton.addEventListener("click", (event) => {
+  console.log(event);
   body.style.backgroundColor = "rgba(0, 120, 0, 0.5)";
 });
 
@@ -20,4 +21,15 @@ blueButton.addEventListener("click", (event) => {
 const yellowButton = document.getElementById("make-yellow");
 yellowButton.addEventListener("click", (event) => {
   body.style.backgroundColor = "yellow";
+});
+
+const inp = document.getElementById("inp");
+inp.addEventListener("keyup", (event) => {
+  console.log(event);
+});
+
+const mysection = document.getElementById("mysection");
+mysection.addEventListener("click", (event) => {
+  console.log(event);
+  console.log("section clicked");
 });
