@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover": "https://images.unsplash.com/photo-1559027615-d8d9d94d5b70",
+    "title": "Mastering CSS Grid: A Beginner's Guide",
+    "author": "John Doe",
+    "author_img": "https://randomuser.me/api/portraits/men/32.jpg",
+    "posted_date": "2024-10-01",
+    "reading_time": 5,
+    "hashtags": ["CSS", "WebDevelopment", "Frontend"]
+  },
+  {
+    "id": 2,
+    "cover": "https://images.unsplash.com/photo-1531497865142-25f141e2e20d",
+    "title": "Understanding JavaScript Event Loop",
+    "author": "Jane Smith",
+    "author_img": "https://randomuser.me/api/portraits/women/44.jpg",
+    "posted_date": "2024-09-25",
+    "reading_time": 8,
+    "hashtags": ["JavaScript", "Asynchronous", "Programming"]
+  },
+  {
+    "id": 3,
+    "cover": "https://images.unsplash.com/photo-1522071820081-009f0129c71c",
+    "title": "How to Optimize React Apps for Speed",
+    "author": "Alex Johnson",
+    "author_img": "https://randomuser.me/api/portraits/men/45.jpg",
+    "posted_date": "2024-09-18",
+    "reading_time": 7,
+    "hashtags": ["React", "Performance", "Optimization"]
+  },
+  {
+    "id": 4,
+    "cover": "https://images.unsplash.com/photo-1535223289827-42f1e9919769",
+    "title": "A Comprehensive Guide to Flexbox",
+    "author": "Emily Brown",
+    "author_img": "https://randomuser.me/api/portraits/women/68.jpg",
+    "posted_date": "2024-09-10",
+    "reading_time": 6,
+    "hashtags": ["CSS", "Flexbox", "Layout"]
+  },
+  {
+    "id": 5,
+    "cover": "https://images.unsplash.com/photo-1559136553-7a69e6c9a526",
+    "title": "Exploring Tailwind CSS: Utility-First Framework",
+    "author": "Chris Green",
+    "author_img": "https://randomuser.me/api/portraits/men/50.jpg",
+    "posted_date": "2024-08-28",
+    "reading_time": 4,
+    "hashtags": ["TailwindCSS", "Frontend", "Design"]
+  }
+]
