@@ -27,9 +27,33 @@ const ListedBooks = () => {
     );
     setWishBooks(myWishList);
   }, []);
+
+  const [sort, setSort] = useState("");
+  const handleSort = (str) => {
+    setSort(str);
+    console.log("clik");
+    const sortedBooks = [...readBooks].sort((a, b) => a.rating - b.rating);
+    setReadBooks(sortedBooks);
+  };
   return (
     <div>
       <h2>Listed Books</h2>
+      <div className="dropdown dropdown-bottom">
+        <div tabIndex={0} role="button" className="btn m-1">
+          {sort ? `Sort by: ${sort}` : "Sort by"}
+        </div>
+        <ul
+          tabIndex={0}
+          className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
+        >
+          <li onClick={() => handleSort("No of Pages")}>
+            <a>No of Pages</a>
+          </li>
+          <li onClick={() => handleSort("Rating")}>
+            <a>Rating</a>
+          </li>
+        </ul>
+      </div>
       <Tabs>
         <TabList>
           <Tab>Read list</Tab>
